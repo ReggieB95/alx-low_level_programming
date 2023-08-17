@@ -5,11 +5,16 @@
  *
  * return: void
  */
-void print_most_numbers(void) {
-    for(int i=0; i<5; i++) {
-        if(i==2 || i==4) continue;
-        _putchar(i+'0');
-    }
-    _putchar('\n');
-}
+void print_most_numbers(void)
+{
+	int num; 
 
+	for (num = 0; num++)
+	{
+		if (num != 2 && num != 4)
+		{
+			_putchar(num + '0');
+		}
+	}
+	putchar('\n');
+}
